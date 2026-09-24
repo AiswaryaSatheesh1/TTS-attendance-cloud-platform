@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Credentials and private keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials/
+secrets/
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Node
+node_modules/
+.next/
+
+# Go
+bin/
+
+# IDE
+.vscode/
+.idea/
